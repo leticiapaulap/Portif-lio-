@@ -17,7 +17,7 @@
 
 <body>
 
-    <nav class="navegacao">
+<nav class="navegacao">
         <ul class="menu">
             <li>
                 <a href="#inicio">Inicio</a>
@@ -37,59 +37,54 @@
         </ul>
     </nav>
 
-    <main id="inicio" class="header">
+<main id="inicio" class="header">
 
-        <div>
+ <div>
             <img src="./assets/Avatar-Leticia.png" alt="Avatar do Leticia" class="foto-perfil">
             <h1>Leticia de Paula</h1>
             <p>Programadora Front-End</p>
-        </div>
+ </div>
 
-    </main>
+ </main>
 
-    <section id="sobre" class="sobre">
+ <section id="sobre" class="sobre">
         <h2 class="sobre-titulo">Sobre Mim</h2>
         <div class="sobre-caixa">
-            <p class="sobre-paragrafo">Olá! Eu sou Lucas Albuquerque, um desenvolvedor front-end apaixonado por
-                tecnologia e inovação. Meu
-                principal objetivo é aprofundar ainda mais meus conhecimentos, trazendo minha paixão e habilidades para
-                contribuir com projetos dinâmicos e inovadores. Minha experiência anterior como gestor de tráfego pago
-                me proporcionou uma visão analítica aguçada, essencial para a análise de dados e tomada de decisões
-                baseadas em métricas. Essa experiência complementa minhas habilidades técnicas e me permite abordar
-                problemas com um olhar estratégico.</p>
+            <p class="sobre-paragrafo"> Olá! Eu sou Leticia de Paula, um desenvolvedor front-end apaixonado por
+                tecnologia e inovação. Meu principal objetivo é aprofundar ainda mais meus conhecimentos.......   </p>
         </div>
     </section>
 
-    <section id="tecnologias" class="tecnologias">
+<section id="tecnologias" class="tecnologias">
         <h2 class="tecnologias-titulo">Tecnologias & Ferramentas</h2>
         <p class="tecnologias-descricao">Principais tecnologias que utilizo no desenvolvimento</p>
 
-        <div class="tecnologias-container">
+<div class="tecnologias-container">
             <div class="tech-card" style="--delay: 0.2s;">
                 <img src="./assets/logo-html-5.png" alt="Logo HTML5">
                 <h3>HTML5</h3>
                 <p>Estruturação semântica e moderna</p>
-            </div>
+     </div>
 
-            <div class="tech-card" style="--delay: 0.4s;">
+<div class="tech-card" style="--delay: 0.4s;">
                 <img src="./assets/logo-css-3.png" alt="Logo CSS">
                 <h3>CSS3</h3>
                 <p>Estilização avançada e responsiva</p>
-            </div>
+</div>
 
-            <div class="tech-card" style="--delay: 0.6s;">
+<div class="tech-card" style="--delay: 0.6s;">
                 <img src="./assets/logo-javascript.png" alt="Logo JavaScript">
                 <h3>JavaScript</h3>
                 <p>Linguagem dinâmica para web</p>
-            </div>
+    </div>
 
-            <div class="tech-card" style="--delay: 1.4s;">
+<div class="tech-card" style="--delay: 1.4s;">
                 <img src="./assets/github-2.png" alt="Logo GitHub">
                 <h3>GitHub</h3>
                 <p>Repositórios e projetos open source</p>
             </div>
 
-            <div class="tech-card" style="--delay: 1.8s;">
+ <div class="tech-card" style="--delay: 1.8s;">
                 <img src="./assets/chat-gpt.png" alt="Logo ChatGPT">
                 <h3>ChatGPT</h3>
                 <p>Integração com inteligência artificial</p>
@@ -97,7 +92,7 @@
         </div>
     </section>
 
-    <section id="projetos" class="projetos">
+ <section id="projetos" class="projetos">
         <h2 class="projetos-titulo">Principais Projetos</h2>
         <div class="projetos-caixa">
 
@@ -109,20 +104,19 @@
                     códigos de animações CSS
                     prontos para uso em interfaces modernas.</p>  
                     cod acima caso eu adicione algum card de projetos que realizei
-                    -->
+                   
+            </div>-->
             
+</section>
 
-        </div>
-    </section>
-
-    <section id="contatos" class="contatos">
+<section id="contatos" class="contatos">
         <h2 class="contato-titulos">Entre em Contato</h2>
         <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
             <div class="nome-form">
                 <input placeholder="Nome" class="campo-form" id="nome">
             </div>
 
-            <div class="grupo form">
+<div class="grupo form">
                 <textarea placeholder="Digite sua Mensagem..." class="campo-form" id="mensagem" rows="6"></textarea>
             </div>
             <button type="submit" class="botao-form">Enviar WhatsApp</button>
