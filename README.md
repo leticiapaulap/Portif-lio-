@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/Avatar-Lucas.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Lucas Albuquerque - Portifólio</title>
+    <title>Leticia de Paula - Portifólio</title>
 </head>
 
 <body>
@@ -40,9 +40,9 @@
     <main id="inicio" class="header">
 
         <div>
-            <img src="./assets/Avatar-Lucas.png" alt="Avatar do Lucas" class="foto-perfil">
-            <h1>Lucas Albuquerque</h1>
-            <p>Programador Front-End</p>
+            <img src="./assets/Avatar-Leticia.png" alt="Avatar do Leticia" class="foto-perfil">
+            <h1>Leticia de Paula</h1>
+            <p>Programadora Front-End</p>
         </div>
 
     </main>
